@@ -6,7 +6,12 @@
   <packaging>war</packaging>
   <name>Servlet_Study_2023331</name>
   
+  <properties>
+	 <m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
+  </properties>
+  
   <dependencies>
+	  
 		<dependency>
 		    <groupId>org.apache.tomcat</groupId>
 		    <artifactId>tomcat-jsp-api</artifactId>
@@ -25,6 +30,13 @@
     	<artifactId>gson</artifactId>
     	<version>2.10.1</version>
 	</dependency>
+	
+	<dependency>
+    	<groupId>mysql</groupId>
+    	<artifactId>mysql-connector-java</artifactId>
+    	<version>8.0.32</version>
+	</dependency>
+	
   </dependencies>
   
   <build>
